@@ -59,12 +59,12 @@ public class Paciente extends Pessoa {
 
             Prontuario prontuario = consulta.getProntuario();
             if (prontuario != null) {
-                System.out.println("→ Detalhes: " + prontuario.getDetalhes());
-                System.out.println("→ Sintomas: " + prontuario.getSintomas());
-                System.out.println("→ Exames solicitados: " + prontuario.getExamesSolicitados());
-                System.out.println("→ Medicamentos: " + prontuario.getMedicamentos());
+                System.out.println("- Detalhes: " + prontuario.getDetalhes());
+                System.out.println("- Sintomas: " + prontuario.getSintomas());
+                System.out.println("- Exames solicitados: " + prontuario.getExamesSolicitados());
+                System.out.println("- Medicamentos: " + prontuario.getMedicamentos());
             } else {
-                System.out.println("→ Consulta ainda não foi encerrada.");
+                System.out.println("- Consulta ainda não foi encerrada.");
             }
         }
     }
