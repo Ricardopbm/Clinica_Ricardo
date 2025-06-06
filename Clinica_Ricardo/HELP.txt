@@ -1,0 +1,25 @@
+1 Criar paciente                      
+2 Criar médica                        
+3 Criar técnico                       
+4 Disponibilizar agenda               
+5 Fazer um agendamento                
+6 Criar uma consulta ao agendar       
+7 Encerrar consulta / Gerar prontuário
+8 Marcar exame                        
+9 Encerrar exame / Gerar laudo        
+10 Visualizar histórico de um paciente
+
+Lógica de fluxo
+-> Criar médica,paciente, técnico;
+-> Agendar consulta;
+-> Marcar e encerrar exame;
+-> Mostrar histórico;
+
+Resumo POO:
+
+forma de programar mais organizada, usando classes pra criar objetos,
+cada classe tem atributos e métodos A gente usa construtor pra iniciar
+o objeto com o que ele precisa. Getters e setters servem pra acessar e
+mudar os dados de forma segura. Com herança, dá pra reaproveitar coisas 
+de uma classe em outra sem repetir tudo.
+
